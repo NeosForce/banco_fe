@@ -45,7 +45,7 @@ export default {
  methods: {
    processSignUp: function () {
      axios
-       .post("https://mision-tic-bank-be.herokuapp.com/user/", this.user, {
+       .post("https://bank-neos-prob.herokuapp.com/user/", this.user, {
          headers: {},
        })
        .then((result) => {
@@ -114,4 +114,5 @@ export default {
  border: 1px solid #283747;
 }
 </style>
+
 
